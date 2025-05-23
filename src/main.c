@@ -4,8 +4,11 @@
 #include <unistd.h>     // Biblioteca para funções POSIX (aqui não usamos funções diretas, mas boa prática incluir)
 #include <sys/stat.h>   // Biblioteca para manipular informações de arquivos (usada para verificar se arquivo existe)
 
-#define MAX_URL 512          // Define uma constante para o tamanho máximo da URL (não usamos explicitamente aqui)
-#define DOWNLOAD_DIR "~/Downloads"  // Diretório padrão onde os vídeos serão salvos
+// Define uma constante para o tamanho máximo da URL (não usamos explicitamente aqui)
+#define MAX_URL 512      
+
+// Diretório padrão onde os vídeos serão salvos
+#define DOWNLOAD_DIR "~/Downloads"  
 
 // Função que verifica se o programa 'yt-dlp' está instalado no sistema
 int verificar_yt_dlp() {
