@@ -34,7 +34,7 @@ Este é um programa simples em C para baixar vídeos do YouTube utilizando o `yt
  ```
 2. Compile o programa:
 ```
-gcc -o downloader downloader.c
+gcc -o downloader main.c
 ```
 3. Execute o programa passando a URL do vídeo do YouTube como argumento:
 ```
