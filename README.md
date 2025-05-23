@@ -29,7 +29,7 @@ Este é um programa simples em C para baixar vídeos do YouTube utilizando o `yt
 1. Clone este repositório:
 
  ```
- git clone https://github.com/seuusuario/seurepositorio.git
+ git clone https://github.com/jonasnunees/download-video-youtube.git
  cd seurepositorio
  ```
 2. Compile o programa:
